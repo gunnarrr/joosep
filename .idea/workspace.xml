@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="735f2d1e-7eb3-46fb-8c03-e78a394a258b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/classes/Controller/auth.php" afterPath="$PROJECT_DIR$/application/classes/Controller/Auth.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/example.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kohana.iws" />
@@ -73,7 +71,9 @@
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="20" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1357988638943" expanded="true" signature="130:182" placeholder="&lt;Files .*&gt;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -439,7 +439,11 @@
       <created>1357988344563</created>
       <updated>1357988344563</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="authenticating, login page, mysql user joosep&#10;">
+      <created>1357989498626</created>
+      <updated>1357989498626</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -513,7 +517,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="authenticating, login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="authenticating, login page, mysql user joosep&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -527,6 +531,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="authenticating, login page" />
+    <MESSAGE value="authenticating, login page, mysql user joosep&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -570,7 +575,9 @@
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="20" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1357988638943" expanded="true" signature="130:182" placeholder="&lt;Files .*&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
