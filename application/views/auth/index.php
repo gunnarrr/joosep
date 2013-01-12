@@ -1,4 +1,3 @@
-<a href="<?=URL::base()?>auth/login:"></a>
 <style type="text/css">
 	body {
 		padding-top: 40px;
