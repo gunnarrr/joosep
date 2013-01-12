@@ -6,7 +6,7 @@
  * Time: 12:45 PM
  * To change this template use File | Settings | File Templates.
  */
-class Controller_Welcome extends Controller_Auth {
+class Controller_Auth extends Controller_Template {
 
 	public function action_index()
 	{
