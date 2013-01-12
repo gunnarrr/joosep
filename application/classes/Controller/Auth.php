@@ -1,35 +1,24 @@
 <?php defined('SYSPATH') or die('No direct script access.');
-/**
- * Created by JetBrains PhpStorm.
- * User: lubuntu
- * Date: 1/12/13
- * Time: 12:45 PM
- * To change this template use File | Settings | File Templates.
- */
-
-
 
 class Controller_Auth extends Controller_Template
 {
-	public $template = 'templates/public';
 
 	public function action_index()
 	{
 		if ($this->request->post('username')) {
 			$username = $this->request->post('username');
 			$password = $this->request->post('password');
-			//echo Auth::instance()->hash('demo');
-			$is_logged_in = Auth::instance()->login($username, $password, true);
+
+			$is_logged_in = Auth::instance()->login($username, $password);
 
 			if ($is_logged_in) {
-				Notify::success('Sisse logitud');
-				$this->redirect('Welcome');
+				Notify::success('Success!');
+				$this->redirect('welcome');
 			} else {
-				Notify::error('Sisselogimine ebaõnnestus');
+				Notify::error('Kasutajanimi või parool vale!');
 			}
-		} else {
-
 		}
+		$this->template->content = View::factory('auth/index');
 	}
 
 	public function action_logout()
@@ -38,4 +27,4 @@ class Controller_Auth extends Controller_Template
 		$this->redirect('auth');
 	}
 
-} // End Welcome
+} // End Auth
